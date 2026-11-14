@@ -9,3 +9,9 @@
 
 
 **Genre:** TBD
+
+
+**Mechanics:** TBD
+
+
+**Objectives:** TBD
