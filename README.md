@@ -14,7 +14,7 @@
 # Module Two Team Project Development Plan
 
 ## 1. Game Scenario and Additional Elements
-- Idea suggested by Troy Thomas -
+- Idea suggested by Troy Thomas 
 
 Our team has chosen to develop a Call of Duty Zombies-inspired PvE (Player vs. Environment) survival game using Unreal Engine. Players must survive increasingly difficult waves of enemies, with each completed round introducing greater challenges and stronger enemy encounters.
 
@@ -28,8 +28,8 @@ The four additional elements selected for our game scenario are:
 4. **Exfiltration and Easter Egg Objectives:** Players can choose to exfiltrate and secure a victory or pursue map-specific Easter Egg objectives for an alternative gameplay experience.
 
 ## 2. Game Content Brainstorming
-- Ideas suggested by Daylen and Troy -
-- 
+- Ideas suggested by Daylen and Troy 
+  
 Our game will focus on replayability, survival, progression, and player decision-making. The following features and content will help establish the core gameplay experience:
 
 - **Round-Based Survival:** Players fight increasingly difficult waves of enemies as they progress through each round.
@@ -46,7 +46,7 @@ Our game will focus on replayability, survival, progression, and player decision
 These features will be developed in stages, with priority given to establishing a playable survival experience before implementing additional mechanics and polishing existing systems.
 
 ## 3. Development Timeline
-- Timeline was set by Daylen -
+- Timeline was set by Daylen 
   
 The development timeline will follow the course's module deadlines and submission requirements. Collaborators will use this section to document development progress, completed tasks, and upcoming objectives throughout the project.
 
@@ -73,7 +73,7 @@ The development timeline will follow the course's module deadlines and submissio
 *Timeline entries will be updated as development progresses and course deadlines are established.*
 
 ## 4. Alpha Stage Development Goals
-- Ideas suggested by Daylen and Troy -
+- Ideas suggested by Daylen and Troy 
   
 The Alpha submission will focus on establishing the foundation of our game and delivering a functional, playable survival experience. Our primary objective is to implement the essential gameplay elements needed to demonstrate the overall direction and core mechanics of the project.
 
@@ -100,7 +100,7 @@ Progress will be evaluated based on whether the required features have been impl
 The team will track completed features, identify incomplete mechanics, and document any issues that need to be addressed before moving into Beta development.
 
 ## 5. Beta Stage Development Goals
-- Ideas suggested by Daylen and Troy -
+- Ideas suggested by Daylen and Troy 
 
 After completing the Alpha objectives, the team will focus on expanding the game's functionality, implementing deferred systems, improving gameplay balance, and preparing the project for its final submission.
 
@@ -118,19 +118,19 @@ The targeted Beta features include:
 - **Bug Fixing and Optimization:** Identify and resolve gameplay bugs, improve performance, and address issues discovered during testing.
 
 **Beta Progress Evaluation:**
-- Ideas suggested by Daylen and Troy -
+- Ideas suggested by Daylen and Troy 
   
 Progress will be evaluated based on the functionality, stability, and completeness of the implemented systems. The team will test gameplay mechanics, verify that systems work together correctly, and identify any remaining bugs or balancing issues.
 
 By the end of Beta, the game should represent a substantially complete experience with its primary mechanics implemented and working together. Remaining work should primarily involve refinement, optimization, testing, and final corrections.
 
 ## 6. Team Communication Methods
-- Agreed upon by Daylen and Troy -
+- Agreed upon by Daylen and Troy 
 
 Our primary communication methods will be through Discord using the team assigned text channel or requested voice chat in order to collab and report issues during development.
 
 ## 7. Team Meeting Frequency
-- Agreed upon by Daylen and Troy -
+- Agreed upon by Daylen and Troy 
 
 Beginning in Module 4, our team will conduct one meeting per week through Discord Voice Chat, ideally mid-week.
 
