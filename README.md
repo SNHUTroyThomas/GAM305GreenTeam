@@ -159,3 +159,156 @@ When making updates through GitHub, team members should:
 - Explain what needs to be completed next.
 
 This approach will allow team members to review each other's contributions, understand the current state of development, and coordinate future tasks while minimizing conflicts when merging changes into the main project branch.
+
+
+# 9. Quality Assurance (QA) and Testing Plan
+
+## Testing Methods and Development Schedule
+
+Our team will use a combination of dedicated testing environments, gameplay playtesting, and code reviews to identify and resolve bugs throughout development.
+
+To make testing more efficient, we plan to create a separate **QA/Debug Level** within Unreal Engine. This level will serve as a dedicated environment for testing individual objects, actors, weapons, enemy AI, machines, and other gameplay mechanics.
+
+The QA/Debug Level will contain the necessary actors and objects required to test individual systems independently of the main playable map. This will allow developers to identify problems, experiment with mechanics, and verify functionality before integrating changes into the main game.
+
+Testing will take place throughout the development cycle using the following schedule:
+
+### Play Test – Preproduction and Early Development
+
+- Test individual objects, actors, weapons, and gameplay mechanics within the QA/Debug Level.
+- Verify that enemy AI, weapon functionality, ammunition, reloading, and player interactions work as intended.
+- Test individual systems before integrating them into the main playable map.
+- Identify early bugs and communicate problems to the responsible developers.
+- Conduct basic gameplay tests to verify that the core survival mechanics are functioning.
+
+### Demo – Before Project Demonstration
+
+- Conduct full gameplay playtests using the main playable map.
+- Verify that all implemented features work together correctly.
+- Test round progression, enemy encounters, weapon functionality, perk machines, and exfiltration.
+- Check for level design issues, collision problems, missing assets, and gameplay interruptions.
+- Ensure that the game is stable enough to demonstrate its current features.
+- Document and prioritize any remaining bugs before the demonstration.
+
+### Code Release – Before Final Code Release
+
+- Perform a final testing session using the code release build.
+- Compare the implemented features against the established QA test plan.
+- Verify that previously reported bugs have been resolved.
+- Test the complete playable experience, including the main menu, gameplay, pause functionality, and available win conditions.
+- Check for new bugs introduced by recent code changes or merged GitHub branches.
+- Confirm that the released build meets the project's expected functionality and stability requirements.
+
+## 2. QA Testing Checklist
+
+The following checklist will be used to evaluate the functionality of individual game systems and overall gameplay.
+
+Each item will be marked as PASS or FAIL depending on whether it functions as intended. Any failed test will be documented and assigned for investigation.
+
+### Player and Gameplay Mechanics
+
+- [ ] PASS / [ ] FAIL – Player movement and controls function correctly.
+- [ ] PASS / [ ] FAIL – Player can attack and use weapons.
+- [ ] PASS / [ ] FAIL – Player health and damage systems function correctly.
+- [ ] PASS / [ ] FAIL – Player can die when health reaches zero.
+- [ ] PASS / [ ] FAIL – Pause functionality works correctly.
+
+### Weapons and Ammunition
+
+- [ ] PASS / [ ] FAIL – All implemented weapons can be equipped and used.
+- [ ] PASS / [ ] FAIL – Weapons deal the intended amount of damage.
+- [ ] PASS / [ ] FAIL – Ammunition decreases when weapons are fired.
+- [ ] PASS / [ ] FAIL – Weapons reload correctly.
+- [ ] PASS / [ ] FAIL – Ammunition reserves function as intended.
+
+### Enemy AI and Round Progression
+
+- [ ] PASS / [ ] FAIL – Enemy AI can detect and pursue the player.
+- [ ] PASS / [ ] FAIL – Enemies can attack and damage the player.
+- [ ] PASS / [ ] FAIL – Enemies can take damage and be eliminated.
+- [ ] PASS / [ ] FAIL – Different enemy types function as intended.
+- [ ] PASS / [ ] FAIL – Enemy spawning works correctly.
+- [ ] PASS / [ ] FAIL – Round progression functions correctly.
+- [ ] PASS / [ ] FAIL – Enemy difficulty increases as rounds progress.
+
+### Map and Environment
+
+- [ ] PASS / [ ] FAIL – Main playable map loads correctly.
+- [ ] PASS / [ ] FAIL – Player can navigate the environment without getting stuck.
+- [ ] PASS / [ ] FAIL – Collision detection works correctly.
+- [ ] PASS / [ ] FAIL – Interactive objects function correctly.
+- [ ] PASS / [ ] FAIL – No major missing assets, textures, or environmental objects.
+- [ ] PASS / [ ] FAIL – Player cannot unintentionally leave the playable area.
+
+### Perks, Upgrades, and Objectives
+
+- [ ] PASS / [ ] FAIL – Perk/Ability Machine functions correctly.
+- [ ] PASS / [ ] FAIL – Players receive the intended perk or ability.
+- [ ] PASS / [ ] FAIL – Weapon Upgrade Machine functions correctly, if implemented.
+- [ ] PASS / [ ] FAIL – Exfiltration can be activated when available.
+- [ ] PASS / [ ] FAIL – Successful exfiltration triggers the appropriate victory condition.
+- [ ] PASS / [ ] FAIL – Easter Egg objectives function correctly, if implemented.
+
+### General Stability and Performance
+
+- [ ] PASS / [ ] FAIL – Game launches without critical errors.
+- [ ] PASS / [ ] FAIL – No game-breaking bugs prevent normal progression.
+- [ ] PASS / [ ] FAIL – Gameplay performance remains acceptable.
+- [ ] PASS / [ ] FAIL – Recent code changes do not break previously functional systems.
+
+## 3. Updating the QA Test Plan
+
+The QA test plan will be updated whenever significant changes are made to the game's mechanics, features, assets, or design document.
+
+When a new feature is introduced or an existing feature is modified, the corresponding test cases will be reviewed and updated to reflect the new functionality.
+
+For example, if changes are made to enemy AI, weapon damage, round progression, or the exfiltration system, the relevant checklist items will be reviewed and additional tests will be added when necessary.
+
+Team members will communicate significant changes through Discord and document relevant development updates through GitHub. This will help ensure that the QA test plan remains consistent with the current state of the project.
+
+## 4. Bug Reporting
+
+Bugs discovered during development or testing will be reported through Discord and GitHub.
+
+Team members should provide enough information for the responsible developer to understand and reproduce the problem.
+
+Bug reports should include:
+
+- **Bug Title:** A brief description of the issue.
+- **Description:** An explanation of what happened.
+- **Steps to Reproduce:** Instructions explaining how to recreate the issue.
+- **Expected Result:** What should have happened.
+- **Actual Result:** What happened instead.
+- **Severity:** Whether the issue is Critical, High, Medium, or Low.
+- **Evidence:** Screenshots, videos, or error messages when available.
+
+Once a bug is reported, the team will communicate through Discord direct messages or the appropriate project discussion channel.
+
+## 5. Bug Tracking and Resolution
+
+GitHub Issues and project branches will be used to track bugs, their assigned developers, and the progress of their resolution.
+
+Each reported bug should be documented as a GitHub Issue so the team can maintain a record of known problems and their current status.
+
+Bug tracking will follow these general stages:
+
+1. **Reported:** A team member discovers and documents a bug.
+2. **Assigned:** The issue is assigned to the appropriate developer.
+3. **In Progress:** The developer investigates and works on resolving the issue.
+4. **Ready for Testing:** The developer submits the changes through their GitHub branch or pull request.
+5. **Testing:** The team verifies that the reported problem has been resolved.
+6. **Closed:** The issue is closed once the fix has been verified.
+
+If a bug remains unresolved or the fix introduces another issue, the GitHub Issue will remain open until the problem is addressed.
+
+GitHub commit messages and pull requests should explain what was changed, which bug or issue the changes address, and whether additional work is required.
+
+This process will allow the team to track bugs over time, review previous fixes, avoid repeating development work, and maintain a clear record of the project's progress.
+
+## 6. QA Responsibilities
+
+All team members are responsible for reporting bugs and communicating problems discovered during development.
+
+Developers will be responsible for testing their individual contributions before integrating them into the main project. Other team members may assist with playtesting and verifying that implemented features work as intended.
+
+The overall goal of our QA process is to maintain a functional and stable game throughout development while identifying problems early enough to prevent them from delaying the Alpha, Beta, and final project submissions.
