@@ -312,3 +312,5 @@ All team members are responsible for reporting bugs and communicating problems d
 Developers will be responsible for testing their individual contributions before integrating them into the main project. Other team members may assist with playtesting and verifying that implemented features work as intended.
 
 The overall goal of our QA process is to maintain a functional and stable game throughout development while identifying problems early enough to prevent them from delaying the Alpha, Beta, and final project submissions.
+
+- Made by Troy and Daylen.
