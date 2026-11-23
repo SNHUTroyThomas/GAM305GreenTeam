@@ -4,6 +4,7 @@
 | -- |
 | Troy - Programmer, Git Manager |
 | Daylen - Programmer, Level Design |
+| Andrew - ------------------------- |
 
 ## Game Name - TBD
 
@@ -314,3 +315,32 @@ Developers will be responsible for testing their individual contributions before
 The overall goal of our QA process is to maintain a functional and stable game throughout development while identifying problems early enough to prevent them from delaying the Alpha, Beta, and final project submissions.
 
 - Made by Troy and Daylen.
+
+
+## Project Log: Team Reflection and Alpha Release (Quality Assurance (QA) and Testing Reflection)
+
+### 1. What parts of the testing process did the team perceive to go well?
+
+Many parts of the testing process went well during the development of our Call of Duty Zombies-inspired game. The team successfully tested the zombie AI's ability to target the player and navigate throughout the game map. We also confirmed that the level progression system worked correctly by increasing the round after a designated number of zombies were eliminated. Additionally, the interaction prompts for certain objects were successfully implemented and tested, allowing players to identify and interact with important objects throughout the level.
+
+### 2. How were bugs identified and corrected?
+
+Bugs were identified through gameplay testing, where the team observed unexpected behavior and functionality that did not work as intended. One issue involved zombie AI pathfinding, where zombies would avoid debris and doors even after those doors had been opened or purchased by the player. To correct this issue, the AI pathfinding system was updated to refresh its navigation after a door was purchased. This allowed zombies to properly navigate through previously restricted areas and improved the overall gameplay experience.
+
+### 3. In terms of the QA and testing process, what would you do differently to improve the process?
+
+One improvement we would make to our QA and testing process is testing multiple gameplay systems and features together rather than testing every individual component separately. Although individual testing is useful for identifying specific issues, combining related tests could help the team save time and identify problems that occur when multiple systems interact. This approach would make testing more efficient while allowing us to evaluate how different gameplay mechanics function together.
+
+### 4. What tools (chosen in Module Two) did you find successful in the development of your Alpha project? Why?
+
+The most successful tools selected for our project were test and bug management tools, along with load testing tools. These tools helped the team identify problems affecting gameplay, investigate potential causes, and develop solutions to correct them. They also supported the process of revisiting previously identified bugs, making revisions, and improving the overall stability and functionality of the game during Alpha development.
+
+### 5. Were there any tools or techniques that you did not find helpful in the success of your project development? Why?
+
+One technique that presented challenges for our team was creating and maintaining multiple Git branches. Although branching was intended to help organize individual contributions and development tasks, we found that it sometimes made sharing, organizing, and integrating project files more difficult. Switching between branches and transferring updates added additional steps to our workflow. In some situations, working more directly with the main project branch would have made collaboration and integration more straightforward.
+
+### 6. How did the team's approach to the initial analysis of the game design document contribute to the decision to use these tools and techniques?
+
+The team's initial analysis of the Game Design involved communicating about the best approach to developing the game and determining which responsibilities would be assigned to each team member. We discussed the systems and features needed to achieve the overall game design and divided development responsibilities based on those needs. This helped establish which tools and techniques would be useful for completing individual tasks, testing gameplay functionality, identifying bugs, and coordinating contributions toward the overall project.
+
+- Made by Troy and Daylen
