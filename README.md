@@ -341,6 +341,6 @@ One technique that presented challenges for our team was creating and maintainin
 
 ### 6. How did the team's approach to the initial analysis of the game design document contribute to the decision to use these tools and techniques?
 
-The team's initial analysis of the Game Design Document involved communicating about the best approach to developing the game and determining which responsibilities would be assigned to each team member. We discussed the systems and features needed to achieve the overall game design and divided development responsibilities based on those needs. This helped establish which tools and techniques would be useful for completing individual tasks, testing gameplay functionality, identifying bugs, and coordinating contributions toward the overall project.
+The team's initial analysis of the Game Design involved communicating about the best approach to developing the game and determining which responsibilities would be assigned to each team member. We discussed the systems and features needed to achieve the overall game design and divided development responsibilities based on those needs. This helped establish which tools and techniques would be useful for completing individual tasks, testing gameplay functionality, identifying bugs, and coordinating contributions toward the overall project.
 
 - Made by Troy and Daylen
