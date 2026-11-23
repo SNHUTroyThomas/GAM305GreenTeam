@@ -4,6 +4,7 @@
 | -- |
 | Troy - Programmer, Git Manager |
 | Daylen - Programmer, Level Design |
+| Andrew - ------------------------- |
 
 ## Game Name - TBD
 
